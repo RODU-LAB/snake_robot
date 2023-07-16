@@ -9,6 +9,9 @@ int servo1(int angle){
   pwm.setPWM(0,0,pul);
 }
 
+
+// hello world 
+
 int servo2(int angle){ 
   int pul = map(angle,0,180,150,600);
   pwm.setPWM(1,0,pul);
