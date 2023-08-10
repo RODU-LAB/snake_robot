@@ -11,7 +11,7 @@ from joystick import *
 
 form_class = uic.loadUiType('main_window.ui')[0]
 
-ardu = serial.Serial('/dev/ttyACM1', 9600)
+ardu = serial.Serial('COM3', 9600)
 
 
 vel1,vel2,vel3,vel4 = 0,0,0,0 

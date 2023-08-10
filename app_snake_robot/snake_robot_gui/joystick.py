@@ -7,7 +7,7 @@ import serial
 import time
 
 
-ardu = serial.Serial('/dev/ttyACM1', 9600)
+ardu = serial.Serial('COM3', 9600)
 
 
 class Direction(Enum):
