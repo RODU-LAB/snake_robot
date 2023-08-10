@@ -21,6 +21,7 @@ snake 로봇은 Rodu에서 개발한 교육용 로봇이다.
 
 
 ### ****회로도****
+![image](https://github.com/RODU-LAB/snake_robot/assets/121866753/50f6ba2f-8a35-4a5b-a5a5-d27f5a3a5541)
 
 
 ### ****부품 및 설계 STL****
