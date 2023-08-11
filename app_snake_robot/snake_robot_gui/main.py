@@ -11,7 +11,7 @@ from joystick import *
 
 form_class = uic.loadUiType('main_window.ui')[0]
 
-ardu = serial.Serial("COM16", 9600)
+ardu = serial.Serial("COM18", 9600)
 
 
 vel1,vel2,vel3,vel4 = 0,0,0,0 
@@ -51,7 +51,7 @@ class MyWindow(QMainWindow, form_class):
 
     def function1(self):
         global vel1, rad1
-        ft="a"
+        ft="f"
         data = f"{vel1},{rad1},{ft}\n"
         ardu.write(data.encode('utf-8'))
 
@@ -59,7 +59,7 @@ class MyWindow(QMainWindow, form_class):
 
     def function2(self):
         global vel2, rad2
-        ft="b"
+        ft="f"
         data = f"{vel2},{rad2},{ft}\n"
         ardu.write(data.encode('utf-8'))
 
@@ -67,7 +67,7 @@ class MyWindow(QMainWindow, form_class):
 
     def function3(self):
         global vel3, rad3
-        ft="c"
+        ft="f"
         data = f"{vel3},{rad3},{ft}\n"
         ardu.write(data.encode('utf-8'))
 
@@ -75,7 +75,7 @@ class MyWindow(QMainWindow, form_class):
 
     def function4(self):
         global vel4, rad4
-        ft="d"
+        ft="f"
         data = f"{vel4},{rad4},{ft}\n"
         ardu.write(data.encode('utf-8'))
 

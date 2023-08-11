@@ -23,16 +23,16 @@ class Move{
 
     //뱀 움직임
     void Start();  //시작
-    void Forward();  //전진
-    void Reverse();  //후진
-    void Right();  //오른쪽
-    void Left();  //왼쪽
+    void Forward(int amplitude, int delaytime);  //전진
+    void Reverse(int amplitude, int delaytime);  //후진
+    void Right(int amplitude, int delaytime);  //오른쪽
+    void Left(int amplitude, int delaytime);  //왼쪽
   
 
   private:
   
     int counter = 0; // Loop counter variable
-    float lag = .5712; // Phase lag between segments
+    float lag = .8975; // Phase lag between segments
     int frequency = 1; // Oscillation frequency of segments.
     int amplitude = 40; // Amplitude of the serpentine motion of the snake
     int rightOffset = 5; // Right turn offset

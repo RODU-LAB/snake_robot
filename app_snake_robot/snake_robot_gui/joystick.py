@@ -8,7 +8,7 @@ import threading
 import time
 
 
-ardu = serial.Serial('COM16', 9600)
+
 
 
 class Direction(Enum):
@@ -24,7 +24,7 @@ class Joystick(QWidget):
         self.movingOffset = QPointF(0, 0)
         self.grabCenter = False
         self.__maxDistance = 92
-        self.serial_connect(self)
+        ###self.serial_connect(self)
 
     def paintEvent(self, event):
         painter = QPainter(self)
@@ -97,9 +97,9 @@ class Joystick(QWidget):
             self.update()
         print(self.joystickDirection())
         
-    def serial_connect(self):
-        thread1 = threading.Timer(1,print(self.joystickDirection()))
-        thread1.daemon = True
-        thread1.start()
+    # def serial_connect(self):
+    #     thread1 = threading.Timer(1,print(self.joystickDirection()))
+    #     thread1.daemon = True
+    #     thread1.start()
 
 

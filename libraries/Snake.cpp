@@ -70,7 +70,7 @@ void Move::Start(){
       servo8(90+amplitude*cos(-4*lag));
     }
 
-void Move::Forward(){
+void Move::Forward(int amplitude, int delaytime){
       for(counter = 0; counter < 360; counter += 1){
         delay(1);
         servo1(90+amplitude*cos(frequency*counter*3.14159/180+3*lag));
@@ -84,7 +84,7 @@ void Move::Forward(){
       }
     }
 
-void Move::Reverse(){
+void Move::Reverse(int amplitude, int delaytime){
       for(counter = 0; counter < 360; counter += 1){
         delay(1);
         servo1(90+amplitude*cos(frequency*counter*3.14159/180+3*lag));
@@ -98,7 +98,7 @@ void Move::Reverse(){
       }
     }
 
-void Move::Right(){
+void Move::Right(int amplitude, int delaytime){
        for(counter = 0; counter < 10; counter += 1){
         delay(delayTime);
         servo1(90+offset+.1*counter*rightOffset+amplitude*cos(frequency*counter*3.14159/180+3*lag));
@@ -137,7 +137,7 @@ void Move::Right(){
       }
     }
 
-void Move::Left(){
+void Move::Left(int amplitude, int delaytime){
        for(counter = 0; counter < 10; counter += 1){
         delay(delayTime);
         servo1(90+offset+.1*counter*leftOffset+amplitude*cos(frequency*counter*3.14159/180+3*lag));
