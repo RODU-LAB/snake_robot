@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>SecondWindow</class>
  <widget class="QWidget" name="SecondWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -10,70 +13,75 @@
     <height>455</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Snake_Robot_Controller</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/gui_png/rodu.png</normaloff>:/images/gui_png/rodu.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background: #333;</string>
   </property>
-  <widget class="QPushButton" name="pushButton_6">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>61</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>gui_png/left.png</normaloff>gui_png/left.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>100</width>
-     <height>100</height>
-    </size>
-   </property>
-   <property name="flat">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>620</x>
-     <y>133</y>
-     <width>184</width>
-     <height>250</height>
+     <x>598</x>
+     <y>54</y>
+     <width>214</width>
+     <height>380</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="pushButton">
       <property name="font">
        <font>
-        <pointsize>18</pointsize>
+        <family>Noto Sans</family>
+        <pointsize>20</pointsize>
         <weight>75</weight>
+        <italic>false</italic>
         <bold>true</bold>
-        <underline>false</underline>
+        <kerning>true</kerning>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/btn2.png</normaloff>gui_png/btn2.png</iconset>
+        <normaloff>:/images/gui_png/btn1.png</normaloff>:/images/gui_png/btn1.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>140</width>
-        <height>60</height>
+        <width>200</width>
+        <height>80</height>
        </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -81,27 +89,48 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="pushButton_2">
       <property name="font">
        <font>
-        <pointsize>18</pointsize>
+        <family>Noto Sans</family>
+        <pointsize>20</pointsize>
         <weight>75</weight>
+        <italic>false</italic>
         <bold>true</bold>
-        <underline>false</underline>
+        <kerning>true</kerning>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/btn3.png</normaloff>gui_png/btn3.png</iconset>
+        <normaloff>:/images/gui_png/btn2.png</normaloff>:/images/gui_png/btn2.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>140</width>
-        <height>60</height>
+        <width>200</width>
+        <height>80</height>
        </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -112,24 +141,94 @@
      <widget class="QPushButton" name="pushButton_3">
       <property name="font">
        <font>
-        <pointsize>18</pointsize>
+        <family>Noto Sans</family>
+        <pointsize>20</pointsize>
         <weight>75</weight>
+        <italic>false</italic>
         <bold>true</bold>
-        <underline>false</underline>
+        <kerning>true</kerning>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
       </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/btn4.png</normaloff>gui_png/btn4.png</iconset>
+        <normaloff>:/images/gui_png/btn3.png</normaloff>:/images/gui_png/btn3.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>140</width>
-        <height>60</height>
+        <width>200</width>
+        <height>80</height>
        </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/images/gui_png/btn4.png</normaloff>:/images/gui_png/btn4.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -141,10 +240,10 @@
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>70</y>
-     <width>200</width>
-     <height>191</height>
+     <x>392</x>
+     <y>94</y>
+     <width>192</width>
+     <height>178</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
@@ -154,38 +253,52 @@
     <property name="verticalSpacing">
      <number>0</number>
     </property>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="arrow2_2">
-      <property name="maximumSize">
-       <size>
-        <width>80</width>
-        <height>80</height>
-       </size>
-      </property>
-      <property name="sizeIncrement">
-       <size>
-        <width>60</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="baseSize">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="arrow1_2">
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/triangle.inset 4.png</normaloff>gui_png/triangle.inset 4.png</iconset>
+        <normaloff>:/images/gui_png/triangle5.png</normaloff>:/images/gui_png/triangle5.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>100</width>
-        <height>100</height>
+        <width>80</width>
+        <height>80</height>
        </size>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="arrow2_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/images/gui_png/triangle4.png</normaloff>:/images/gui_png/triangle4.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -194,36 +307,24 @@
     </item>
     <item row="1" column="0">
      <widget class="QPushButton" name="arrow3_2">
-      <property name="maximumSize">
-       <size>
-        <width>80</width>
-        <height>80</height>
-       </size>
-      </property>
-      <property name="sizeIncrement">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
-      </property>
-      <property name="baseSize">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
-      </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/triangle.inset 5.png</normaloff>gui_png/triangle.inset 5.png</iconset>
+        <normaloff>:/images/gui_png/triangle5.png</normaloff>:/images/gui_png/triangle5.png</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>100</width>
-        <height>100</height>
+        <width>80</width>
+        <height>80</height>
        </size>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -232,77 +333,24 @@
     </item>
     <item row="1" column="1">
      <widget class="QPushButton" name="arrow4_2">
-      <property name="maximumSize">
-       <size>
-        <width>80</width>
-        <height>80</height>
-       </size>
-      </property>
-      <property name="sizeIncrement">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
-      </property>
-      <property name="baseSize">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
-      </property>
       <property name="text">
        <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>gui_png/triangle.inset 4.png</normaloff>gui_png/triangle.inset 4.png</iconset>
+        <normaloff>:/images/gui_png/triangle4.png</normaloff>:/images/gui_png/triangle4.png</iconset>
       </property>
       <property name="iconSize">
-       <size>
-        <width>100</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="flat">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QPushButton" name="arrow1_2">
-      <property name="maximumSize">
        <size>
         <width>80</width>
         <height>80</height>
        </size>
       </property>
-      <property name="sizeIncrement">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
+      <property name="autoDefault">
+       <bool>false</bool>
       </property>
-      <property name="baseSize">
-       <size>
-        <width>60</width>
-        <height>60</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url&quot;:/home/arrow.png&quot;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>gui_png/triangle.inset 5.png</normaloff>gui_png/triangle.inset 5.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>100</width>
-        <height>100</height>
-       </size>
+      <property name="default">
+       <bool>false</bool>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -317,16 +365,55 @@
      <x>70</x>
      <y>100</y>
      <width>291</width>
-     <height>131</height>
+     <height>148</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_3">
-    <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+    <item row="2" column="1">
+     <widget class="QLabel" name="velocity">
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>30</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
      <widget class="QLabel" name="rad_text">
       <property name="font">
        <font>
         <family>Noto Sans</family>
-        <pointsize>25</pointsize>
+        <pointsize>24</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -343,37 +430,14 @@ line-height: normal;</string>
        <number>0</number>
       </property>
       <property name="text">
-       <string>반지름</string>
+       <string>Curve</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
-    <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
-     <widget class="QLabel" name="vel_text">
-      <property name="font">
-       <font>
-        <family>Noto Sans</family>
-        <pointsize>25</pointsize>
-        <weight>75</weight>
-        <italic>false</italic>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color : white;
-font-family: Noto Sans;
-font-style: normal;
-font-weight: 600;
-line-height: normal;</string>
-      </property>
-      <property name="lineWidth">
-       <number>0</number>
-      </property>
-      <property name="text">
-       <string>속도</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+    <item row="0" column="1">
      <widget class="QLabel" name="radius">
       <property name="font">
        <font>
@@ -407,14 +471,17 @@ line-height: normal;</string>
       <property name="textFormat">
        <enum>Qt::AutoText</enum>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
     </item>
-    <item row="1" column="1" alignment="Qt::AlignHCenter|Qt::AlignTop">
-     <widget class="QLabel" name="velocity">
+    <item row="2" column="0">
+     <widget class="QLabel" name="vel_text">
       <property name="font">
        <font>
         <family>Noto Sans</family>
-        <pointsize>30</pointsize>
+        <pointsize>20</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -431,73 +498,135 @@ line-height: normal;</string>
        <number>0</number>
       </property>
       <property name="text">
-       <string>0</string>
+       <string>Velocity</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QLabel" name="label_connect">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>320</y>
-     <width>140</width>
-     <height>60</height>
+     <x>410</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
     </rect>
    </property>
-   <property name="maximumSize">
-    <size>
-     <width>140</width>
-     <height>60</height>
-    </size>
+   <property name="font">
+    <font>
+     <family>Noto Sans</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+line-height: normal;</string>
+   </property>
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>14</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>gui_png/button1.png</normaloff>gui_png/button1.png</iconset>
+     <normaloff>:/images/gui_png/home.png</normaloff>:/images/gui_png/home.png</iconset>
    </property>
    <property name="iconSize">
     <size>
-     <width>140</width>
-     <height>60</height>
+     <width>80</width>
+     <height>80</height>
     </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
    </property>
    <property name="flat">
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>620</x>
-     <y>60</y>
-     <width>182</width>
-     <height>86</height>
+     <x>110</x>
+     <y>330</y>
+     <width>201</width>
+     <height>91</height>
     </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <family>Noto Sans</family>
+     <pointsize>20</pointsize>
      <weight>75</weight>
+     <italic>false</italic>
      <bold>true</bold>
-     <underline>false</underline>
+     <kerning>true</kerning>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>gui_png/btn1.png</normaloff>gui_png/btn1.png</iconset>
+     <normaloff>:/images/gui_png/change.png</normaloff>:/images/gui_png/change.png</iconset>
    </property>
    <property name="iconSize">
     <size>
-     <width>140</width>
+     <width>200</width>
      <height>80</height>
     </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
    </property>
    <property name="flat">
     <bool>true</bool>
@@ -513,140 +642,12 @@ line-height: normal;</string>
    <slot>page1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>61</x>
-     <y>81</y>
+     <x>46</x>
+     <y>40</y>
     </hint>
     <hint type="destinationlabel">
-     <x>147</x>
-     <y>64</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>set_1()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>692</x>
-     <y>109</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>720</x>
-     <y>41</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>set_2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>718</x>
-     <y>185</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>779</x>
-     <y>152</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>set_3()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>715</x>
-     <y>250</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>786</x>
-     <y>227</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>set_4()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>742</x>
-     <y>341</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>767</x>
-     <y>380</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>arrow1_2</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>rad_up()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>473</x>
-     <y>122</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>364</x>
-     <y>62</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>arrow2_2</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>rad_down()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>551</x>
-     <y>113</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>583</x>
-     <y>39</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>arrow3_2</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>vel_up()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>430</x>
-     <y>207</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>372</x>
-     <y>277</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>arrow4_2</sender>
-   <signal>clicked()</signal>
-   <receiver>SecondWindow</receiver>
-   <slot>vel_down()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>556</x>
-     <y>207</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>596</x>
-     <y>278</y>
+     <x>158</x>
+     <y>67</y>
     </hint>
    </hints>
   </connection>
@@ -657,12 +658,140 @@ line-height: normal;</string>
    <slot>save()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>246</x>
-     <y>352</y>
+     <x>248</x>
+     <y>372</y>
     </hint>
     <hint type="destinationlabel">
-     <x>387</x>
-     <y>337</y>
+     <x>369</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>arrow3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>vel_up()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>446</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>arrow4_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>vel_down()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>228</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>arrow1_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>rad_up()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>372</x>
+     <y>85</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>arrow2_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>rad_down()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>503</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>set_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>666</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>set_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>733</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>144</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>set_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>655</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>463</x>
+     <y>368</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>SecondWindow</receiver>
+   <slot>set_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>702</x>
+     <y>397</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>521</x>
+     <y>407</y>
     </hint>
    </hints>
   </connection>
@@ -678,5 +807,6 @@ line-height: normal;</string>
   <slot>set_3()</slot>
   <slot>set_4()</slot>
   <slot>save()</slot>
+  <slot>page1()</slot>
  </slots>
 </ui>

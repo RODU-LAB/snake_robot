@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>gui_png/arrow.png</file>
+        <file>gui_png/arrow_2.png</file>
+
+        <file>gui_png/btn1.png</file>
+        <file>gui_png/btn2.png</file>
+        <file>gui_png/btn3.png</file>
+        <file>gui_png/btn4.png</file>
+
+
+        <file>gui_png/btn1_1.png</file>
+        <file>gui_png/btn2_1.png</file>
+        <file>gui_png/btn3_1.png</file>
+        <file>gui_png/btn4_1.png</file>
+
+        <file>gui_png/number1.png</file>
+        <file>gui_png/number2.png</file>
+        <file>gui_png/number3.png</file>
+        <file>gui_png/number4.png</file>   
+
+        <file>gui_png/triangle4.png</file>
+        <file>gui_png/triangle5.png</file>
+
+
+        <file>gui_png/arrow1.png</file>
+        <file>gui_png/arrow2.png</file>
+        <file>gui_png/arrow3.png</file>
+        <file>gui_png/arrow4.png</file>
+        <file>gui_png/arrow5.png</file>
+
+        <file>gui_png/blue.png</file>
+
+        <file>gui_png/move.png</file>
+        <file>gui_png/change.png</file>
+        <file>gui_png/connect.png</file>
+
+        <file>gui_png/home.png</file>
+        <file>gui_png/home2.png</file>
+
+        <file>gui_png/set.png</file>
+
+        <file>gui_png/special1.png</file>
+        <file>gui_png/special2.png</file>
+
+        <file>gui_png/wheel.png</file>
+
+        <file>gui_png/snake.png</file>
+
+        <file>gui_png/rodu.png</file>
+
+    </qresource>
+</RCC>

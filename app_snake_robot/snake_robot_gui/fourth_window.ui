@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fourth_window</class>
+ <widget class="QWidget" name="fourth_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Snake_Robot_Controller</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/gui_png/rodu.png</normaloff>:/images/gui_png/rodu.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #333;</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>14</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/gui_png/home.png</normaloff>:/images/gui_png/home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combo">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>100</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans</family>
+     <pointsize>25</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>COM1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM27</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM28</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM29</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM30</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>350</y>
+     <width>180</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/gui_png/connect.png</normaloff>:/images/gui_png/connect.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>180</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_connect">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Sans</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color : white;
+font-family: Noto Sans;
+font-style: normal;
+line-height: normal;</string>
+   </property>
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>501</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/images/gui_png/snake.png</pixmap>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>fourth_window</receiver>
+   <slot>page1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>fourth_window</receiver>
+   <slot>connect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>356</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>435</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>rad_up()</slot>
+  <slot>slot1()</slot>
+  <slot>rad_down()</slot>
+  <slot>vel_up()</slot>
+  <slot>vel_down()</slot>
+  <slot>set_1()</slot>
+  <slot>set_2()</slot>
+  <slot>set_3()</slot>
+  <slot>set_4()</slot>
+  <slot>save()</slot>
+  <slot>change()</slot>
+  <slot>connect()</slot>
+ </slots>
+</ui>
